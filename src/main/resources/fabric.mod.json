@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "autopot",
+  "version": "0.2.0",
+  "name": "AutoPot",
+  "description": "Automatically throw your own utility potions with a configurable keybind and GUI.",
+  "authors": ["AutoPot"],
+  "license": "All Rights Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "main": ["com.autopot.AutoPot"],
+    "client": ["com.autopot.client.AutoPotClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
